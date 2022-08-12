@@ -1,19 +1,7 @@
 .App {
-  text-align: center;
+  background-color: #141821;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.config {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,16 +11,75 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: #202736;
+  min-height: 5vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo{
+  padding: 5%;
+  width: auto;
+  display:inline-block;
+}
+.navMenu{
+  padding: 5%;
+  float:right;
+	list-style: none;
+  width: auto;
+	}
+	ul#horizontal-list li {
+    color: white;
+    padding: 5%;
+		display: inline;
   }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #ff9900;
+  /* text-decoration: none; */
+}
+::selection {
+  background: #ff9900; /* WebKit/Blink Browsers */
+}
+.floating_bg{
+  pointer-events: none;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+bigText{
+  position: absolute;
+  text-shadow:0.1px 0.1px 15px rgba(255, 255, 255, 0.26);
+  font-size: calc(10px + 12vmin);
+  font-weight: bold;
+  width: 110%;
+  color: #fff;
+  align-content: center;
+  justify-content: center;
+  padding: 5%;
+}
+aboutText{
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  font-size: calc(5vmin);
+  color: white;
+  top: calc(15vmax);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+aboutText2{
+  position: absolute;
+  font-size: calc(3vmin);
+  color: white;
+  top: calc(25vmax);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+.projectCards{
+  width: 110%;
+  margin-top: 25vmin;
 }

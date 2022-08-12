@@ -1,0 +1,114 @@
+// vars
+@use "sass:list";
+$bodyBg: #141821;
+$color1: #333333;
+$color2: #00c3ff;
+$color3: #ae00ff;
+$color4: #00c542;
+$color5: #ff9900;
+$color6: #ed64a6;
+$colors: #333333, #00c3ff, #ae00ff,#00c542,#ff9900,#ed64a6;
+
+body{
+  background: $bodyBg;
+  font-family: 'Fira Code', monospace;
+}
+ul#elements{
+  li#floats{
+    padding: 5%;
+    z-index: -1;
+    list-style: none;
+    position: absolute;
+    transition: 0.5s;
+  }
+}
+.textStuff{
+  z-index: 1;
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.titleText{
+  position: absolute;
+  text-shadow:0.1px 0.1px 15px rgba(255, 255, 255, 0.26);
+  font-size: calc(10px + 15vmin);
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  padding: 5%;
+  align-content: center;
+  justify-content: center;
+  top: 30%;
+}
+.infrontClass{
+  z-index: 1;
+}
+
+.card-title{
+  text-decoration: underline;
+  font-size: calc(3vmin);
+}
+.card{
+  float: left;
+  margin: 3%;
+  box-shadow: -11px 10px 16px 1px rgba(0,0,0,0.16);
+  background: #00c3ff;
+  transition: all 0.2s ease;
+  color: white;
+  // top: 20%;
+  // left: 5vw;
+  font-size: 1.1vmax;
+  width: calc(20vmax);
+  height: 42vmin;
+}
+.card:hover {
+  cursor: pointer;
+  transform: translatey(-15px);
+}
+@for $i from 1 through 90{
+  li#floats:nth-child(n + #{$i}){
+    // opacity: (random(4) * 0.2) + 0.2 ;
+    left: random(89) + vw;
+    top: random(500)+ vh;
+    font-size: 14 + random(8) + px;
+    -webkit-animation-name: animate#{$i};
+    -webkit-animation-duration: $i*1.8+s;
+    animation-name: animate#{$i};
+    animation-duration: $i*1.8+s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@for $i from 1 through 90{
+  @keyframes animate#{$i}{
+      0%{
+        color: nth($colors , random(6));
+        transform: rotate(random($i)*(-1)*1+deg) scale(0.15+$i*0.05) translateY((random(20))+px) translateX(random(20)+px);
+      }
+      20%{
+        color: $color2;
+        transform: rotate(random($i)*(-1)*1+deg) scale(0.15+$i*0.05) translateY((random(20))+px) translateX(random(20)+px);
+        // opacity: random(10) * 0.1;
+      }
+      40%{
+        color: $color3;
+        transform: rotate(random($i)*(-1)*1+deg) scale(0.15+$i*0.05) translateY((random(20))+px) translateX(random(20)+px);
+        // opacity: random(10) * 0.1;
+      }
+      60%{
+        color: $color4;
+        transform: rotate(random($i)*2+deg) scale(0.1+$i*0.05) translateY((random(30))+px) translateX(random(30)+px);
+        // opacity: random(10) * 0.1;
+      }
+      80%{
+        color: $color5;
+        transform: rotate(random($i)*2+deg) translateY((random(30))+px) translateX(random(30)+px);
+        // opacity: random(10) * 0.1;
+      }
+      100%{
+        color: $color6;
+      }
+    }
+}
