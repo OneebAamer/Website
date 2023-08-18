@@ -8,12 +8,10 @@ function HomePage() {
         <Parallax pages={5}>
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
-             <displayName>
              <TypeAnimation
                sequence={["Hi, I'm Oneeb"]}
                speed={10}
              />
-             </displayName>
            </div>
           </ParallaxLayer>
           <ParallaxLayer className='infrontClass' factor={2.5} offset={1.5} speed={1} style={{ backgroundColor: '#2d3748bd' }}>

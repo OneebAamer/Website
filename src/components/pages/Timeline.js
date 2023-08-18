@@ -1,7 +1,7 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 export function Timeline() {
-    let expediaLogo = <img src="https://companieslogo.com/img/orig/EXPE-ec99ca4b.png?t=1648150031" alt="Expedia Logo" height={60} width={60}/>
+    let expediaLogo = <img src="https://crunchdigitalmedia.com/wp-content/uploads/2022/11/LWDAdNWG_400x400.png" alt="Expedia Logo" height={60} width={60}/>
     let jpMorganLogo = <img src="https://media2.vault.com/14343503/210909_jp-morgan_logo.jpg" alt="JPMorgan Logo" height={60} width={60}/>
     let GELogo = <img src="https://media.licdn.com/dms/image/D4E0BAQGdQ5_kKKfGOA/company-logo_200_200/0/1681642473348?e=1700697600&v=beta&t=JMktU3xGZEHGpqnGmL_VVK5sSGlZg6jkNW0BLkARVKk" alt="Green Enterprise Logo" height={60} width={60}/>
     let KCLLogo = <img src="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/lnzscox1r0sfx8ttlujt" alt="KCL Logo" height={60} width={60}/>
