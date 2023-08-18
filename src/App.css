@@ -59,7 +59,6 @@ img {
 }
 
 .card {
-  margin: 3%;
   box-shadow: -11px 10px 16px 1px rgba(0, 0, 0, 0.16);
   background: linear-gradient(180deg, #0080ff, #00b7ff);
   transition: all 0.2s ease;
