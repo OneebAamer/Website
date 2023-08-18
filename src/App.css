@@ -49,12 +49,14 @@ a {
   height: 100vh;
   width: 100%;
 }
+img {
+  border-radius: 50%;
+}
 bigText{
   position: absolute;
   text-shadow:0.1px 0.1px 15px rgba(255, 255, 255, 0.26);
   font-size: calc(10px + 12vmin);
   font-weight: bold;
-  width: 110%;
   color: #fff;
   align-content: center;
   justify-content: center;

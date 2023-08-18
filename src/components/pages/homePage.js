@@ -1,35 +1,31 @@
 import {TypeAnimation} from 'react-type-animation';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Card from 'react-bootstrap/Card';
+import {Timeline} from "./timeline";
 function HomePage() {
     return (
       <div className='textStuff'>
-        <Parallax pages={3.9}>
+        <Parallax pages={5}>
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
              <displayName>
              <TypeAnimation
-               sequence={["Hi, I'm Oneeb!"]}
+               sequence={["Hi, I'm Oneeb"]}
                speed={10}
              />
              </displayName>
            </div>
           </ParallaxLayer>
-          <ParallaxLayer className='infrontClass' factor={1.1} offset={1.5} speed={1} style={{ backgroundColor: '#0bc2f0b6' }}>
+          <ParallaxLayer className='infrontClass' factor={2.3} offset={1.5} speed={1} style={{ backgroundColor: '#2d3748bd' }}>
             <bigText>
               About Me
             </bigText>
-            <aboutText>
-            I am a Computer Science student completing an MSci at King's College London.
-            </aboutText>
-            <aboutText2>
-            So how did this all begin? I started off by programming plugins for a video game called Minecraft in PHP.
-            After a couple years of doing so, I became interested in game development. I began programming my own games in Unity written in C#, one of which I published recently on the Google Play Store.
-            I am now currently learning web-development with modules such as React and Node.js (this website is an example) and
-            I have learnt Python and Java fluently in school and university. Ever since I began coding plugins for Minecraft, I knew that I wanted to pursue a career in Computer Science, as a software engineer.
-            </aboutText2>
+            {/*<img src="https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2018/03/04123237/ps_expedia_01.jpg" alt="Expedia Logo"/>*/}
+            <div className={"absolute top-[70%]"}>
+              <Timeline/>
+            </div>
           </ParallaxLayer>
-          <ParallaxLayer className='infrontClass' offset={2.5} factor={1.3} speed={1} style={{ backgroundColor: '#2d3748bd' }}>
+          <ParallaxLayer className='infrontClass' offset={3} factor={1.3} speed={1} style={{ backgroundColor: '#2d3748bd' }}>
             <bigText>
               Projects
             </bigText>
@@ -84,18 +80,9 @@ function HomePage() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              {/*<Card onClick= {() => window.open("https://github.kcl.ac.uk/K21003974/PuttHack")}>*/}
-              {/*  <Card.Body>*/}
-              {/*    <Card.Title>Property Viewer</Card.Title>*/}
-              {/*    <Card.Text>*/}
-              {/*      Worked in a group of 4 to design a simple property viewer application. */}
-              {/*      Written in Java using modules such as JavaFX to design the UI and implement features such as dark mode and integrated maps.*/}
-              {/*    </Card.Text>*/}
-              {/*  </Card.Body>*/}
-              {/*</Card>*/}
               </div>
           </ParallaxLayer>
-          <ParallaxLayer className='infrontClass' offset={3.3} speed={1}>
+          <ParallaxLayer className='infrontClass' offset={4} speed={1}>
             <bigText>
               Contact Me
             </bigText>
