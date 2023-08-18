@@ -1,16 +1,6 @@
 .App {
   background-color: #141821;
 }
-.config {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 header{
   position: fixed;
   z-index: 2;
@@ -25,17 +15,6 @@ header{
   width: auto;
   display:inline-block;
 }
-.navMenu{
-  padding: 5%;
-  float:right;
-	list-style: none;
-  width: auto;
-	}
-	ul#horizontal-list li {
-    color: white;
-    padding: 5%;
-		display: inline;
-  }
 a {
   color: #ff9900;
   /* text-decoration: none; */
@@ -52,36 +31,20 @@ a {
 img {
   border-radius: 50%;
 }
-bigText{
-  position: absolute;
+.bigText{
   text-shadow:0.1px 0.1px 15px rgba(255, 255, 255, 0.26);
   font-size: calc(10px + 12vmin);
   font-weight: bold;
   color: #fff;
-  align-content: center;
-  justify-content: center;
-  padding: 5%;
+  padding: 15px;
 }
-aboutText{
+.contactText{
   font-weight: bold;
-  position: absolute;
-  width: 100%;
-  font-size: calc(5vmin);
+  font-size: calc(4vmin);
   color: white;
-  top: calc(15vmax);
-  padding-left: 5%;
-  padding-right: 5%;
-}
-aboutText2{
-  position: absolute;
-  font-size: calc(3vmin);
-  color: white;
-  top: calc(25vmax);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 5%;
+  padding-left: 2%;
 }
 .projectCards{
   width: 105%;
-  margin-top: 25vmin;
+  margin-top: 5px;
 }

@@ -7,18 +7,16 @@ export function Timeline() {
     let KCLLogo = <img src="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/lnzscox1r0sfx8ttlujt" alt="KCL Logo" height={60} width={60}/>
     let UnityLogo = <img src="https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png" alt="Unity Logo" height={57} width={55}/>
 
-
-
     return (
         <VerticalTimeline>
             <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 // icon={<StarIcon />}
             />
             <VerticalTimelineElement
                 date="2014 - 2016"
                 dateClassName={"text-white"}
-                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                iconStyle={{ background: '#ff9900', color: '#fff' }}
                 // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Freelancing</h3>
@@ -28,7 +26,7 @@ export function Timeline() {
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                date="2006 - 2008"
+                date="2020 - 2022"
                 dateClassName={"text-white"}
                 iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                 icon={UnityLogo}
@@ -36,7 +34,7 @@ export function Timeline() {
                 <h3 className="vertical-timeline-element-title">Unity Game Developer</h3>
                 <h4 className="vertical-timeline-element-subtitle">London, UK</h4>
                 <p>
-                    Began developing games in C# using Unity's Game Engine, and even published one to the store.
+                    Began developing games in C# using Unity's Game Engine, and even published one to the store. Worked with Unity's Relay System to integrate multiplayer with Peer to Peer connections
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -52,21 +50,8 @@ export function Timeline() {
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                date="November 2012"
+                date="October 2022"
                 dateClassName={"text-white"}
-                // iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                icon={GELogo}
-            >
-                <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Green Enterprise</h4>
-                <p>
-                    Worked on their project, Opus. Started working on frontend functionality, eventually moving onto backend and implementing AWS S3 file storage to store user images.
-                </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                date="2002 - 2006"
-                dateClassName={"text-white"}
-                // iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                 icon={jpMorganLogo}
             >
                 <h3 className="vertical-timeline-element-title">Code for Good Hackathon</h3>
@@ -80,6 +65,17 @@ export function Timeline() {
                 </p>
                 <p>
                     • Integrated AWS EC2 to host backend connection and SQLite for the database.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="August 2022 - January 2023"
+                dateClassName={"text-white"}
+                icon={GELogo}
+            >
+                <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
+                <h4 className="vertical-timeline-element-subtitle">Green Enterprise</h4>
+                <p>
+                    Worked on their project, Opus. Started working on frontend functionality, eventually moving onto backend and implementing AWS S3 file storage to store user images.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
