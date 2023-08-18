@@ -101,7 +101,6 @@ function HomePage() {
               <li id="floats">==</li>
               <li id="floats">@</li>
               <li id="floats">#</li>
-              <li id="floats">//</li>
               <li id="floats">||</li>
               <li id="floats">&lt;/&gt;</li>
               <li id="floats">-</li>
@@ -110,7 +109,6 @@ function HomePage() {
               <li id="floats">==</li>
               <li id="floats">@</li>
               <li id="floats">#</li>
-              <li id="floats">//</li>
               <li id="floats">&lt;/&gt;</li>
               <li id="floats">&gt;</li>
               <li id="floats">%</li>
@@ -118,7 +116,6 @@ function HomePage() {
               <li id="floats">==</li>
               <li id="floats">@</li>
               <li id="floats">#</li>
-              <li id="floats">//</li>
               <li id="floats">||</li>
               <li id="floats">&lt;/&gt;</li>
               <li id="floats">-</li>
@@ -136,7 +133,6 @@ function HomePage() {
               <li id="floats">*</li>
               <li id="floats">*</li>
               <li id="floats">*</li>
-              <li id="floats">//</li>
               <li id="floats">||</li>
               <li id="floats">&lt;/&gt;</li>
               <li id="floats">&gt;</li>
@@ -146,7 +142,6 @@ function HomePage() {
               <li id="floats">@</li>
               <li id="floats">#</li>
               <li id="floats">=&gt;</li>
-              <li id="floats">//</li>
               <li id="floats">||</li>
               <li id="floats">/=</li>
               <li id="floats">&lt;/&gt;</li>
@@ -155,7 +150,6 @@ function HomePage() {
               <li id="floats">==</li>
               <li id="floats">@</li>
               <li id="floats">#</li>
-              <li id="floats">//</li>
               <li id="floats">/=</li>
               <li id="floats">&lt;/&gt;</li>
               <li id="floats">&gt;</li>
