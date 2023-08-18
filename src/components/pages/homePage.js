@@ -34,12 +34,27 @@ function HomePage() {
               Projects
             </bigText>
             <div className='projectCards'>
+              <Card onClick= {() => window.open("https://github.com/shivam-909/seg-large-group/tree/master")}>
+                <Card.Body>
+                  <Card.Title>Job Finder Website</Card.Title>
+                  <Card.Text>
+                    Created a job finding website with a functional search algorithm, and using REST API to connect a frontend and backend.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              <Card onClick= {() => window.open("https://github.com/OneebAamer/NeuralNetwork")}>
+                <Card.Body>
+                  <Card.Title>Neural Network</Card.Title>
+                  <Card.Text>
+                    Programmed a basic Neural Network in Python using no external libraries other than Numpy. Uses techniques such as ReLU activation and Loss Regression to calculate the difference in outputs and expected results
+                  </Card.Text>
+                </Card.Body>
+              </Card>
               <Card onClick= {() => window.open("https://github.com/OneebAamer/website")}>
                 <Card.Body>
                   <Card.Title>Website</Card.Title>
                   <Card.Text>
-                    Created this website using Node.js and React. Took around 4 days to complete, and used 
-                    Netlify to host the domain.
+                    This website was created using React and Node.js. I used Netlify to host the domain.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -49,15 +64,6 @@ function HomePage() {
                   <Card.Text>
                     An online multiplayer game created in Unity using Unity's relay system. Written in
                     C# and learnt Server side and client side communications. 
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-              <Card onClick= {() => window.open("https://github.com/OneebAamer/TNTRun-V1.0.0")}>
-                <Card.Body>
-                  <Card.Title>TNTRun plugin</Card.Title>
-                  <Card.Text>
-                  Used PocketMine-MP API to create my own plugin for players to use in online games. 
-                  Written in PHP, The code allows players to play a mini-game where they must keep running to avoid losing.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -78,15 +84,15 @@ function HomePage() {
                   </Card.Text>
                 </Card.Body>
               </Card>
-              <Card onClick= {() => window.open("https://github.kcl.ac.uk/K21003974/PuttHack")}>
-                <Card.Body>
-                  <Card.Title>Property Viewer</Card.Title>
-                  <Card.Text>
-                    Worked in a group of 4 to design a simple property viewer application. 
-                    Written in Java using modules such as JavaFX to design the UI and implement features such as dark mode and integrated maps.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
+              {/*<Card onClick= {() => window.open("https://github.kcl.ac.uk/K21003974/PuttHack")}>*/}
+              {/*  <Card.Body>*/}
+              {/*    <Card.Title>Property Viewer</Card.Title>*/}
+              {/*    <Card.Text>*/}
+              {/*      Worked in a group of 4 to design a simple property viewer application. */}
+              {/*      Written in Java using modules such as JavaFX to design the UI and implement features such as dark mode and integrated maps.*/}
+              {/*    </Card.Text>*/}
+              {/*  </Card.Body>*/}
+              {/*</Card>*/}
               </div>
           </ParallaxLayer>
           <ParallaxLayer className='infrontClass' offset={3.3} speed={1}>
