@@ -97,7 +97,7 @@ function HomePage() {
               Vist my <a id="link" href="https://www.linkedin.com/in/oneeb-aamer">LinkedIn</a>, <a id="link" href="https://github.com/OneebAamer">Github</a> or Email me: oneeb47@gmail.com
             </aboutText>
           </ParallaxLayer>
-          <ParallaxLayer factor={4} speed={0.5} blur={0}>
+          <ParallaxLayer factor={4} speed={0.5} blur={100}>
             <div>
             <ul id="elements">
               <li id="floats">||</li>
