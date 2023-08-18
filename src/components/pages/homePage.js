@@ -1,6 +1,5 @@
-import Typing from 'react-type-animation';
+import {TypeAnimation} from 'react-type-animation';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 function HomePage() {
     return (
@@ -9,8 +8,8 @@ function HomePage() {
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
              <displayName>
-             <Typing
-               sequence={["Hi, I'm Oneeb"]}
+             <TypeAnimation
+               sequence={["Hi, I'm Oneeb!"]}
                speed={10}
              />
              </displayName>
