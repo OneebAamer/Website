@@ -1,5 +1,4 @@
 import Card from "react-bootstrap/Card";
-import {ProjectCard} from "../ProjectCard";
 
 export function Projects() {
     return (
