@@ -1,62 +1,9 @@
-body {
-  background: #141821;
-  font-family: "Fira Code", monospace;
-}
-
 ul#elements li#floats {
   padding: 5%;
   z-index: -1;
   list-style: none;
   position: absolute;
   transition: 0.5s;
-}
-
-.textStuff {
-  z-index: 1;
-  position: absolute;
-  align-content: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
-.titleText {
-  position: absolute;
-  text-shadow: 0.1px 0.1px 15px rgba(255, 255, 255, 0.26);
-  font-size: calc(10px + 15vmin);
-  font-weight: bold;
-  width: 100%;
-  color: #fff;
-  padding: 5%;
-  align-content: center;
-  justify-content: center;
-  top: 30%;
-}
-
-.infrontClass {
-  z-index: 1;
-}
-
-.card-title {
-  text-decoration: underline;
-  font-size: 3vmin;
-}
-
-.card {
-  float: left;
-  margin: 3%;
-  box-shadow: -11px 10px 16px 1px rgba(0, 0, 0, 0.16);
-  background: #00c3ff;
-  transition: all 0.2s ease;
-  color: white;
-  font-size: 1.1vmax;
-  width: 20vmax;
-  height: 42vmin;
-}
-
-.card:hover {
-  cursor: pointer;
-  transform: translatey(-15px);
 }
 
 li#floats:nth-child(n+1) {

@@ -15,8 +15,15 @@ module.exports = {
       'light-red': '#ffb8b8',
       'blue': '#3869fc',
       'orange': '#f59e0b',
+      'cyan': '#00c3ff',
     },
     extend: {},
+  },
+  screens: {
+    'sm': '390px',
+    'md': '640px',
+    'lg': '1024px',
+    'xl': '2560px',
   },
   plugins: [],
 }

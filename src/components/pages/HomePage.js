@@ -4,7 +4,7 @@ import {Timeline} from "./Timeline";
 import {Projects} from "./Projects";
 function HomePage() {
     return (
-      <div className='textStuff'>
+      <div>
         <Parallax pages={5}>
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
@@ -20,7 +20,6 @@ function HomePage() {
             <div className={"bigText"}>
               About Me
             </div>
-            {/*<img src="https://centaur-wp.s3.eu-central-1.amazonaws.com/designweek/prod/content/uploads/2018/03/04123237/ps_expedia_01.jpg" alt="Expedia Logo"/>*/}
             <div className={""}>
               <Timeline/>
             </div>

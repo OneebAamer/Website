@@ -11,13 +11,11 @@ export function Timeline() {
         <VerticalTimeline>
             <VerticalTimelineElement
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<StarIcon />}
             />
             <VerticalTimelineElement
                 date="2014 - 2016"
                 dateClassName={"text-white"}
                 iconStyle={{ background: '#ff9900', color: '#fff' }}
-                // icon={<WorkIcon />}
             >
                 <h3 className="vertical-timeline-element-title">Freelancing</h3>
                 <h4 className="vertical-timeline-element-subtitle">London, UK</h4>

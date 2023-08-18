@@ -1,10 +1,10 @@
 import Card from "react-bootstrap/Card";
+import {ProjectCard} from "../ProjectCard";
 
 export function Projects() {
-
     return (
-        <div className='projectCards'>
-            <Card onClick= {() => window.open("https://github.com/shivam-909/seg-large-group/tree/master")}>
+        <div className='inline-grid grid-cols-2 md:grid-cols-3 gap-4'>
+            <Card className={"w-1/2"} onClick= {() => window.open("https://github.com/shivam-909/seg-large-group/tree/master")}>
                 <Card.Body>
                     <Card.Title>Job Finder Website</Card.Title>
                     <Card.Text>
