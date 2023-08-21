@@ -5,7 +5,7 @@ import {Projects} from "./Projects";
 function HomePage() {
     return (
       <div>
-        <Parallax pages={5}>
+        <Parallax pages={6}>
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
              <TypeAnimation
@@ -13,6 +13,8 @@ function HomePage() {
                speed={10}
              />
            </div>
+          </ParallaxLayer>
+          <ParallaxLayer speed={-3}>
             <div className={"rotate-180 text-white absolute bottom-0 text-[10vmin] w-full"}>
               <div className={"left-[50%] absolute w-full"}>
                 ^
