@@ -5,7 +5,7 @@ import {Projects} from "./Projects";
 function HomePage() {
     return (
       <div>
-        <Parallax pages={6}>
+        <Parallax pages={4.9}>
           <ParallaxLayer className='infrontClass' speed={2.5} blur={5}>
             <div className='titleText'>
              <TypeAnimation
@@ -14,7 +14,7 @@ function HomePage() {
              />
            </div>
           </ParallaxLayer>
-          <ParallaxLayer speed={-3}>
+          <ParallaxLayer speed={-3} factor={1}>
             <div className={"rotate-180 text-white absolute bottom-0 text-[10vmin] w-full"}>
               <div className={"left-[50%] absolute w-full"}>
                 ^
@@ -35,7 +35,7 @@ function HomePage() {
             </div>
             <Projects/>
           </ParallaxLayer>
-          <ParallaxLayer className='infrontClass' offset={4} speed={1}>
+          <ParallaxLayer className='infrontClass' offset={4} speed={1} factor={0.1}>
             <div className={"bigText"}>
               Contact Me
             </div>
