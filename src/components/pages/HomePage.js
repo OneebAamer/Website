@@ -13,6 +13,11 @@ function HomePage() {
                speed={10}
              />
            </div>
+            <div className={"rotate-180 text-white absolute bottom-0 text-[10vmin] w-full"}>
+              <div className={"left-[50%] absolute w-full"}>
+                ^
+              </div>
+            </div>
           </ParallaxLayer>
           <ParallaxLayer className='infrontClass' factor={2.5} offset={1.5} speed={1} style={{ backgroundColor: '#2d3748bd' }}>
             <div className={"bigText"}>
